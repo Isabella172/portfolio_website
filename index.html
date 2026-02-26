@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | Frontend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio</h2>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+ <section class="hero">
+    <div class="hero-container">
+        
+        <div class="hero-text">
+            <h1>Hello,<br>
+              I'm <span>Asantewaa Isabella</span>
+            </h1>
+            <h3 class="role">Frontend Developer</h3>
+            <p>
+                I design and build responsive, user-friendly web interfaces that combine 
+                creativity with clean, efficient code. I'm passionate about transforming ideas 
+                into beautiful digital experiences.
+            </p>
+            <button onclick="scrollToSection('projects')">
+                View My Work
+            </button>
+        </div>
+
+        <div class="hero-image">
+            <img src="gg.png" alt="Asantewaa Isabella">
+        </div>
+
+    </div>
+</section>
+
+
+    
+
+   
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I’m a Computer Science student at the University of Ghana passionate about crafting beautiful and responsive web experiences. Using HTML, CSS, JavaScript, React, and Tailwind CSS, I design and develop intuitive user interfaces that combine creativity with clean, efficient code.
+
+            I’m driven by continuous learning and a desire to build digital experiences that are both functional and visually engaging.
+        </p>
+    </section>
+
+   
+    <section id="skills" class="section skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="card">
+                <strong>Frontend Development</strong><br>
+                HTML, CSS, JavaScript, React, Responsive Design, UI/UX Fundamentals
+            </div>
+            <div class="card">
+                <strong>Backend & APIs</strong><br>
+                 REST API Integration
+            </div>
+            <div class="card">
+                <strong>Database Management</strong><br>
+                PostgreSQL, SQL, Database Design
+            </div>
+            <div class="card">
+                <strong>DevOps & Deployment</strong><br>
+                Docker, CI/CD Basics, Heroku
+            </div>
+            <div class="card">
+                <strong>Tools & Platforms</strong><br>
+                Git/GitHub, VS Code, IntelliJ
+            </div>
+            <div class="card">
+                <strong>Programming Languages</strong><br>
+                Python, Java, C++, JavaScript
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>PrimePre Logistics Web Application</h3>
+                <p>
+                    A full-stack logistics management system developed using React (frontend), 
+                    Django (backend), and PostgreSQL (database). Features include secure user 
+                    authentication, real-time package tracking, and an interactive admin dashboard.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather Application</h3>
+                <p>
+                    A real-time weather app integrating external APIs to display live weather 
+                    updates. Designed with a dynamic interface and user-friendly layout.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>News Homepage</h3>
+                <p>
+                    A modern and responsive news homepage built using advanced CSS layout 
+                    techniques, emphasizing structured content and visual hierarchy.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="section contact">
+        <h2>Get In Touch</h2>
+        <p>I am open to internships, collaborations, and exciting frontend opportunities.</p>
+
+        <div class="contact-links">
+            <p>Email: <a href="mailto:amaserwaa@email.com">berlah87009@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/isabella172" target="_blank">github.com/isabella172</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/isabella-asantewaa" target="_blank">linkedin.com/in/isabella-asantewaa</a></p>
+        </div>
+
+        <button onclick="showMessage()">Say Hello</button>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Asantewaa Isabella | Frontend Developer | Built with love</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
