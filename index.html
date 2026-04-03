@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Portfolio | Frontend Developer</title>
+    <link rel="icon" type="image/png" href="logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
 
@@ -21,45 +26,71 @@
     </nav>
 
 
- <section class="hero">
-    <div class="hero-container">
-        
-        <div class="hero-text">
-            <h1>Hello,<br>
-              I'm <span>Asantewaa Isabella</span>
-            </h1>
-            <h3 class="role">Frontend Developer</h3>
-            <p>
-                I design and build responsive, user-friendly web interfaces that combine 
-                creativity with clean, efficient code. I'm passionate about transforming ideas 
-                into beautiful digital experiences.
-            </p>
-            <button onclick="scrollToSection('projects')">
-                View My Work
-            </button>
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <p class="greeting">Hi there, welcome! <span class="wave">👋</span></p>
+                <h1>I'm <br>
+                    <span>Asantewaa Isabella</span>
+                </h1>
+                <h3 class="role">Frontend Developer & CS Student</h3>
+                <p class="bio">
+                    I design and build responsive, user-friendly web interfaces that combine
+                    creativity with clean, efficient code. I'm passionate about transforming complex problems
+                    into elegant, intuitive digital experiences.
+                </p>
+
+                <div class="hero-highlights">
+                    <span> React</span>
+                    <span> JavaScript</span>
+                    <span> UI/UX</span>
+                </div>
+
+                <div class="hero-cta">
+                    <button onclick="scrollToSection('projects')" class="primary-btn">
+                        View My Work
+                    </button>
+                    <a href="#contact" class="secondary-btn">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="shecode 5.png" alt="Asantewaa Isabella">
+            </div>
+
         </div>
-
-        <div class="hero-image">
-            <img src="shecode 5.png" alt="Asantewaa Isabella">
-        </div>
-
-    </div>
-</section>
-
-
-    
-
-   
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>
-            I’m a Computer Science student at the University of Ghana passionate about crafting beautiful and responsive web experiences. Using HTML, CSS, JavaScript, React, and Tailwind CSS, I design and develop intuitive user interfaces that combine creativity with clean, efficient code.
-
-            I’m driven by continuous learning and a desire to build digital experiences that are both functional and visually engaging.
-        </p>
     </section>
 
-   
+
+
+
+
+    <section id="about" class="section about-section">
+        <div class="about-container">
+            <div class="about-image-wrapper">
+                <div class="about-image-inner">
+                    <div class="image-bg-box"></div>
+                    <img src="shecode 5.png" alt="Asantewaa Isabella" class="about-image">
+                </div>
+                <div class="about-image-caption">
+                    <p class="caption-name">Asantewaa Isabella</p>
+                    <p class="caption-role">Frontend Developer</p>
+                </div>
+            </div>
+            <div class="about-text-wrapper">
+                <h2 class="about-heading">ABOUT ME</h2>
+                <p>
+                    I am Asantewaa Isabella, a frontend developer passionate about crafting beautiful and responsive web experiences.
+                </p>
+                <p>
+                    Using HTML, CSS, JavaScript, React, and Tailwind CSS, I design and develop intuitive user interfaces that combine creativity with clean, efficient code. I’m driven by continuous learning and a desire to build digital experiences that are both functional and visually engaging. Whether it's an interactive web app or a complete portfolio, my goal is to make every pixel feel intentional and every interaction feel seamless.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
     <section id="skills" class="section skills">
         <h2>Technical Skills</h2>
         <div class="skills-grid">
@@ -69,7 +100,7 @@
             </div>
             <div class="card">
                 <strong>Backend & APIs</strong><br>
-                 REST API Integration
+                REST API Integration
             </div>
             <div class="card">
                 <strong>Database Management</strong><br>
@@ -90,35 +121,46 @@
         </div>
     </section>
 
-   
+
 
     <section id="projects" class="section">
         <h2>Projects</h2>
 
         <div class="projects-grid">
             <div class="project-card">
-                <h3>PrimePre Logistics Web Application</h3>
+                <h3>Coinbase Clone</h3>
                 <p>
-                    A full-stack logistics management system developed using React (frontend), 
-                    Django (backend), and PostgreSQL (database). Features include secure user 
-                    authentication, real-time package tracking, and an interactive admin dashboard.
+                    A pixel-perfect, responsive replica of the Coinbase Explore page and other core UI components. 
+                    Developed with a focus on modern design aesthetics, complex layouts, and creating an intuitive 
+                    user interface.
                 </p>
+                <a href="https://isabella-coinbase-clone.netlify.app/" target="_blank" class="project-link">View Project &rarr;</a>
             </div>
 
             <div class="project-card">
                 <h3>Weather Application</h3>
                 <p>
-                    A real-time weather app integrating external APIs to display live weather 
+                    A real-time weather app integrating external APIs to display live weather
                     updates. Designed with a dynamic interface and user-friendly layout.
                 </p>
+                <a href="https://the-weather-app123.netlify.app/" target="_blank" class="project-link">View Project &rarr;</a>
             </div>
 
             <div class="project-card">
                 <h3>News Homepage</h3>
                 <p>
-                    A modern and responsive news homepage built using advanced CSS layout 
+                    A modern and responsive news homepage built using advanced CSS layout
                     techniques, emphasizing structured content and visual hierarchy.
                 </p>
+                <a href="https://news-homepage-6899.netlify.app/" target="_blank" class="project-link">View Project &rarr;</a>
+            </div>
+
+             <div class="project-card">
+                <h3>Medium Landing Page</h3>
+                <p>
+                   Built a responsive replica of the Medium landing page with custom styling and layout improvements using HTML and CSS.
+                </p>
+                <a href="https://medium-landing-page56.netlify.app/" target="_blank" class="project-link">View Project &rarr;</a>
             </div>
         </div>
     </section>
@@ -130,9 +172,33 @@
         <p>I am open to internships, collaborations, and exciting frontend opportunities.</p>
 
         <div class="contact-links">
-            <p>Email: <a href="mailto:amaserwaa@email.com">berlah87009@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/isabella172" target="_blank">github.com/isabella172</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/isabella-asantewaa" target="_blank">linkedin.com/in/isabella-asantewaa</a></p>
+            <a href="mailto:berlah87009@gmail.com" aria-label="Email" title="Email me">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-mail">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+            </a>
+            <a href="https://github.com/isabella172" target="_blank" aria-label="GitHub" title="View my GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-github">
+                    <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                </svg>
+            </a>
+            <a href="https://linkedin.com/in/isabella-asantewaa" target="_blank" aria-label="LinkedIn"
+                title="View my LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-linkedin">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
         </div>
 
         <button onclick="showMessage()">Say Hello</button>
@@ -145,4 +211,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
